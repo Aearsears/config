@@ -1,0 +1,56 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 16,
+    "editor.bracketPairColorization.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
+    "window.zoomLevel": 1,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["backspace"],
+            "commands": [":noh"]
+        }
+    ],
+    "vim.searchHighlightColor": "rgba(118, 47, 84, 0.8)",
+    "vim.hlsearch": true,
+    "git.confirmSync": false,
+    "vim.handleKeys": {
+        "<C-a>": false, // select all
+        "<C-c>": false, //  copy
+        "<C-v>": false, //  paste
+        "<C-f>": false, // find
+        "<C-n>": false, //  new file
+        "<C-d>": false, // select multiple
+        "<C-x>": false, // cut?
+        "<C-w>": false, // close the tab
+        "<C-p>": false // searchfiles
+    },
+    "vim.useCtrlKeys": true,
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "gitlens.views.branches.branches.layout": "list",
+    "git.autofetch": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "prettier.bracketSameLine": true,
+    "prettier.singleAttributePerLine": true,
+    "keyboard.dispatch": "keyCode"
+}
