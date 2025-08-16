@@ -1,6 +1,7 @@
 alias.pushall=!git remote | xargs -L1 git push --all
 alias.go=!git add -u && git commit && git pushall
 core.editor=code --wait
+core.excludesFile=~/.gitignore
 core.autocrlf=true
 push.autosetupremote=true
 pull.rebase=true
