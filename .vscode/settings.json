@@ -52,5 +52,16 @@
     "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
     "prettier.bracketSameLine": true,
     "prettier.singleAttributePerLine": true,
-    "keyboard.dispatch": "keyCode"
+    "keyboard.dispatch": "keyCode",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "latex-workshop.formatting.latex": "latexindent",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "latex": false
+    }
 }
