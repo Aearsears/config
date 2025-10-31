@@ -63,5 +63,6 @@
         "markdown": false,
         "scminput": false,
         "latex": false
-    }
+    },
+    "editor.cursorSmoothCaretAnimation": "on"
 }
