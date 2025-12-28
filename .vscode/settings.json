@@ -64,5 +64,6 @@
         "scminput": false,
         "latex": false
     },
-    "editor.cursorSmoothCaretAnimation": "on"
+    "editor.cursorSmoothCaretAnimation": "on",
+    "cSpell.diagnosticLevel": "Hint"
 }
