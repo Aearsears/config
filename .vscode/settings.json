@@ -65,5 +65,10 @@
         "latex": false
     },
     "editor.cursorSmoothCaretAnimation": "on",
-    "cSpell.diagnosticLevel": "Hint"
+    "cSpell.diagnosticLevel": "Hint",
+    "window.nativeTabs": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "terminal.integrated.inheritEnv": false
 }
